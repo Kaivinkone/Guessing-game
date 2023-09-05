@@ -29,7 +29,7 @@ public class Guessing_name {
 		}
 			
 		}while (!vastaus.equals("lopeta")); 
-		System.out.println("Arvastit " + laskuri + " kertaa. Kiitos pelaamisesta!");
+		System.out.println("Arvastit " + laskuri + " kertaa. Kiitos pelaamisesta! :)");
 		
 
 		}
