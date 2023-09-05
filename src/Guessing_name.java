@@ -28,6 +28,7 @@ public class Guessing_name {
 		// Ilman Penttiä palaute ja uudelleen kysymys
 		else if (!arvaus.equals("Pentti")) {
 			System.out.println("Et voittanut tällä kertaa.");
+			//luodaan apua väärin vastanneille
 			char apu = oikeaV.charAt(laskuri-1);
 			System.out.println("Tässä hieman apua, vinkki nimen kirjaimista järjestyksessä: " + apu);
 			System.out.println("Paina enteriä pelataksesi uudestaan. Lopettaaksesi pelin kirjoita lopeta");
